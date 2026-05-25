@@ -6,6 +6,7 @@ import Footer from './Footer/Footer'
 import UserCard from './UserCard/UserCard'
 import ProductCard from './ProductCard/ProductCard'
 import ProfileCard from './ProfileCard/ProfileCard'
+import LikeButton from './LikeButton/LikeButton'
 
 export default function App(): JSX.Element {
   return (
@@ -18,6 +19,7 @@ export default function App(): JSX.Element {
       <ProductCard name="Wireless Mouse" price={149} isAvailable={false} />
       <ProfileCard username="dana_dev" email="dana@example.com" isActive={true} />
       <ProfileCard username="noam_writer" email="noam@example.com" isActive={false} />
+      <LikeButton />
       <Footer />
     </main>
   )
